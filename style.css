@@ -1,0 +1,48 @@
+/* a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+} */
+
+table {
+  width: 100%;
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: aqua;
+  border: none;
+}
+
+th,
+td {
+  padding: 20px;
+  border: 1px solid red;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ccc;
+}
+
+tbody tr:hover {
+  background-color: red;
+  padding: 10px;
+}
+
+td {
+  height: 70px;
+  /* text-align: right; */
+  vertical-align: top;
+}
